@@ -1,0 +1,61 @@
+.heading
+{
+    font-size:22px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    width:86%;
+    height:25%;
+    margin:0;
+    border-color:rgb(25, 0, 255);
+    border-width:2px;
+    border-style: ridge;
+    box-shadow:5px 5px 18px rgb(131, 109, 255);
+}
+
+.note
+{
+    font-size:20px;
+    color:#ff00b3;
+    font-family:cursive;
+    font-style:italic;
+}
+
+.copy_right_footer
+{
+    position:fixed;
+    color:rgb(255, 255, 133);
+    bottom:0;
+    font-size:20px;
+    width:100%;
+    line-height:2;
+    text-align:center;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    border-color:rgb(129, 255, 129);
+    border-style:ridge;
+    border-width:2px;
+    font-weight:bold;
+}
+body
+{
+    background-image: url("https://i.pinimg.com/736x/15/c0/aa/15c0aa1666060ebadeb6047da2dfe58c.jpg");
+    background-position:center;
+    background-size:cover;
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    border-color:rgb(255, 255, 255);
+    border-width:6px;
+    border-style:solid;
+    border-radius:20px;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px rgb(255, 89, 89);}
+    to{box-shadow: 1px 1px 38px rgb(191, 80, 255);}
+}
